@@ -1,13 +1,13 @@
 {
-  "name": "theNameOfYourLibWhichMustBeAValidCamelCasedJavaScriptIdentifier",
+  "name": "rot47",
 
-  "description": "This should be a short description of your entry.",
+  "description": "This will encrypt or decrypt your text using the ROT47 cipher",
 
   "keywords": [
-    "five",
-    "descriptive",
-    "keywords",
-    "or",
-    "fewer"
+    "rot47",
+    "encryption",
+    "decryption",
+    "cipher",
+    "string"
   ]
 }

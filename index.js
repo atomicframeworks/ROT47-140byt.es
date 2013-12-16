@@ -1,1 +1,1 @@
-function(){/* Your entry, a useful, unique, and valid JavaScript expression that packs as much functionality into 140 bytes as possible. */}
+function(a){return a.replace(/[^ ]/g,function(b){b=b.charCodeAt()+47;b>126?b-=94:0;return String.fromCharCode(b)})}
