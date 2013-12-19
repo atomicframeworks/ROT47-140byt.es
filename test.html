@@ -7,8 +7,8 @@
 
 <script>
 
-  var rot47 = function(a){return a.replace(/[^ ]/g,function(b){b=b.charCodeAt()+47;b>126?b-=94:0;return String.fromCharCode(b)})}
+  function r(a,b){return++b?String.fromCharCode((a=a.charCodeAt()+47,a>126?a-94:a)):a.replace(/[^ ]/g,r)};
 
-  document.getElementById( "encrypted" ).innerHTML = rot47('The Quick Brown Fox Jumps Over The Lazy Dog.')
-  document.getElementById( "decrypted" ).innerHTML = rot47('%96 "F:4< qC@H? u@I yF>AD ~G6C %96 {2KJ s@8]');
+  document.getElementById( "encrypted" ).innerHTML = r('The Quick Brown Fox Jumps Over The Lazy Dog.');
+  document.getElementById( "decrypted" ).innerHTML = r('%96 "F:4< qC@H? u@I yF>AD ~G6C %96 {2KJ s@8]');
 </script>

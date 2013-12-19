@@ -1,1 +1,1 @@
-function(a){return a.replace(/[^ ]/g,function(b){b=b.charCodeAt()+47;b>126?b-=94:0;return String.fromCharCode(b)})}
+function r(a,b){return++b?String.fromCharCode((a=a.charCodeAt()+47,a>126?a-94:a)):a.replace(/[^ ]/g,r)}
