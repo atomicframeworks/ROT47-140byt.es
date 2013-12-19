@@ -25,4 +25,4 @@ To learn about byte-saving hacks for your own code, or to contribute what you've
 Thanks to
 ------
 
-115b -> 103b  [atk](https://github.com/atk)
+115b ~> 103b  [atk](https://github.com/atk)
